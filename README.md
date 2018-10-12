@@ -15,7 +15,7 @@ with additional future updates on par with latest development in the disaster pr
 have all the basic survival information along with expert opinions. 
  
  
--> Another dynamic feature being a live map which indicates the affected region, and also safe zones with nearby relief camps geotagged, so that inspite of network disruption people can find the diections
+-> Another dynamic feature being a live map which indicates the affected region, and also safe zones with nearby relief camps geotagged, so that inspite of network disruption people can find the directions
 through GPS.
  
  
