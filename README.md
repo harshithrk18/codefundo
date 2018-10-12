@@ -19,5 +19,5 @@ have all the basic survival information along with expert opinions.
 through GPS.
  
  
--> The website will also host Discussion Forums for NGO's which consists of basic details aand point of contacts inclusive of their work structure towards the disaster hit region.
+-> The website will also host Discussion Forums for NGO's which consists of basic details aand point of contacts inclusive of their work structure towards the disaster struck region.
  This feature also bridges the gap between local NGO's to National and international NGO's which will have unlimited resources.  
