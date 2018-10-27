@@ -27,7 +27,7 @@ SECRET_KEY = 'f#or^2k!n4d#qm=76+04q9g=!154jih-ppfh=w%bd*$dniibo3'
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['10.150.35.79','127.0.0.1']
+ALLOWED_HOSTS = ['10.150.35.79','127.0.0.1','merlinfordisaster.azurewebsites.net']
 
 
 
