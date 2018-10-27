@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link href = "{% static "lib/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+    <link href="{% static "css/registration.css" %}">
+</head>
+<body>
+    <div class="container">
+    <div id="jumbo" style="background-color: rgba(0,0,0,0)" class="jumbotron">
+      {% if registered %}
+        <h1>Thank you for registering! </h1>
+      {% else %}
+        <h1>Register Here</h1>
+        <h3>Just fill out the form.</h3>
+
+        <form enctype="multipart/form-data" method="POST">
+          {% csrf_token %}
+          {{ user_form.as_p }}
+          {{ profile_form.as_p }}
+          <input type="submit" name="" value="Register">
+        </form>
+
+      {% endif %}
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href = "{% static "lib/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+    <div style="background-color: rgba(0,0,0,0)" class="jumbotron">
+      <h1>Please Login</h1>
+
+        <form method="post" action="{% url 'merlin:user_login' %}">
+          {% csrf_token %}
+          {# A more "HTML" way of creating the login form#}
+          <label for="username">Username:</label>
+          <input type="text" name="username" placeholder="Username">
+
+          <label for="password"></label>
+          <input type="password" name="password">
+
+          <input type="submit" name="" value="Login">
+
+        </form>
+
+    </div>
+  </div>
+</body>
+</html>
