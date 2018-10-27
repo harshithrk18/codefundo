@@ -1,0 +1,22 @@
+/* Set the size of the div element that contains the map */
+#map {
+  height: 800px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+
+/*#map {*/
+ /*height: 360px;*/
+ /*width: 300px;*/
+ /*overflow: hidden;*/
+ /*float: left;*/
+ /*border: thin solid #333;*/
+ /*}*/
+/*#capture {*/
+ /*height: 360px;*/
+ /*width: 480px;*/
+ /*overflow: hidden;*/
+ /*float: left;*/
+ /*background-color: #ECECFB;*/
+ /*border: thin solid #333;*/
+ /*border-left: none;*/
+ /*}*/
